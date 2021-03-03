@@ -1,0 +1,14 @@
+<Configuration>
+<MappedFolders>
+   <MappedFolder>
+      <HostFolder>C:\sandbox_share</HostFolder>
+      <SandboxFolder>C:\sandbox_share</SandboxFolder> 
+      <ReadOnly>true</ReadOnly> 	  
+   </MappedFolder>
+</MappedFolders>
+
+<LogonCommand>
+  <Command>C:\sandbox_share\brave-installer.exe --install --silent --system-level</Command>  
+</LogonCommand>
+
+</Configuration>

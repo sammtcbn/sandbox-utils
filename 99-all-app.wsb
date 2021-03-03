@@ -1,0 +1,14 @@
+<Configuration>
+<MappedFolders>
+   <MappedFolder>
+      <HostFolder>C:\sandbox_share</HostFolder>
+      <SandboxFolder>C:\sandbox_share</SandboxFolder> 
+      <ReadOnly>true</ReadOnly> 	  
+   </MappedFolder>
+</MappedFolders>
+
+<LogonCommand>
+  <Command>C:\sandbox_share\all-app.bat</Command>  
+</LogonCommand>
+
+</Configuration>

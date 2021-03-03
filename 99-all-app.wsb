@@ -8,7 +8,7 @@
 </MappedFolders>
 
 <LogonCommand>
-  <Command>C:\sandbox_share\all-app.bat</Command>  
+  <Command>C:\sandbox_share\99-all-app.bat</Command>  
 </LogonCommand>
 
 </Configuration>

@@ -7,8 +7,4 @@
    </MappedFolder>
 </MappedFolders>
 
-<LogonCommand>
-  <Command>C:\sandbox-utils\03-nodejs.bat</Command>  
-</LogonCommand>
-
 </Configuration>

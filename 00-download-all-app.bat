@@ -8,3 +8,7 @@ curl --output git-installer.exe -L https://github.com/git-for-windows/git/releas
 curl --output npp-installer.exe -L https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.3/npp.7.9.3.Installer.x64.exe
 
 curl --output nodejs-installer.msi https://nodejs.org/dist/v14.16.0/node-v14.16.0-x64.msi
+
+curl --output vc_redist-2015-2019.x64.exe -L https://aka.ms/vs/16/release/vc_redist.x64.exe
+
+curl --output mosquitto-installer.exe https://mosquitto.org/files/binary/win64/mosquitto-2.0.8-install-windows-x64.exe

@@ -1,0 +1,3 @@
+choco install git -y
+Set-ExplorerOptions -showProtectedOSFiles -showFileExtensions
+

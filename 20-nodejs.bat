@@ -1,2 +1,3 @@
-C:\sandbox-utils\node-installer.msi /quiet
 mkdir C:\samdata
+C:\sandbox-utils\nodejs-installer.msi /quiet
+call C:\sandbox-utils\generate-boot-ok.bat

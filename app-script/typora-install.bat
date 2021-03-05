@@ -1,0 +1,1 @@
+C:\sandbox-dl\typora-setup-x64.exe /VERYSILENT /NORESTART

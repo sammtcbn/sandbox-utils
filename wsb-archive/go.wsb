@@ -8,7 +8,7 @@
 </MappedFolders>
 
 <LogonCommand>
-  <Command>C:\sandbox-utils\21-go.bat</Command>  
+  <Command>C:\sandbox-utils\wsb-archive\go.bat</Command>  
 </LogonCommand>
 
 </Configuration>

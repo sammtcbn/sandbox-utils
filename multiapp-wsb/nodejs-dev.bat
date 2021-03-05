@@ -4,4 +4,5 @@ call C:\sandbox-utils\app-script\7zip-install.bat
 call C:\sandbox-utils\app-script\npp-install.bat
 call C:\sandbox-utils\app-script\git-install.bat
 call C:\sandbox-utils\app-script\nodejs-install.bat
+call C:\sandbox-utils\app-script\vscode-install.bat
 call C:\sandbox-utils\utils\postaction.bat

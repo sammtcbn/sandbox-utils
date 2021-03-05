@@ -12,3 +12,5 @@ curl --output nodejs-installer.msi https://nodejs.org/dist/v14.16.0/node-v14.16.
 curl --output vc_redist-2015-2019.x64.exe -L https://aka.ms/vs/16/release/vc_redist.x64.exe
 
 curl --output mosquitto-installer.exe https://mosquitto.org/files/binary/win64/mosquitto-2.0.8-install-windows-x64.exe
+
+curl --output ChromeSetup.exe -L http://dl.google.com/chrome/install/latest/chrome_installer.exe

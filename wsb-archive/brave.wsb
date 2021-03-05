@@ -8,7 +8,7 @@
 </MappedFolders>
 
 <LogonCommand>
-  <Command>C:\sandbox-utils\05-brave-online.bat</Command>  
+  <Command>C:\sandbox-utils\wsb-archive\brave.bat</Command>  
 </LogonCommand>
 
 </Configuration>

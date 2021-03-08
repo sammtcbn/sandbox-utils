@@ -13,6 +13,6 @@ choco install -y git.install >> C:\Users\WDAGUtilityAccount\Desktop\chocolatey-l
 choco install -y vscode >> C:\Users\WDAGUtilityAccount\Desktop\chocolatey-log.txt
 
 @rem NOTE: Need to call chocolatey-refreshenv.bat once before git clone project later in this batch file
-call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
+@rem call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
 
 call C:\sandbox-utils\utils\postaction.bat

@@ -2,17 +2,22 @@
 @echo off
 WHERE nircmd
 if /I %ERRORLEVEL% NEQ 0 (
-    @rem echo nircmd not found >> C:\Users\WDAGUtilityAccount\Desktop\nircmd.txt
-	echo nircmd not found
-	goto :EOF
+
+    echo nircmd not found in path >> C:\Users\WDAGUtilityAccount\Desktop\sandbox-utils-log.txt
+
+    if exist C:\ProgramData\chocolatey\lib\nircmd\tools\nircmd.exe (
+        @rem file exists
+        echo nircmd found in chocolatey folder >> C:\Users\WDAGUtilityAccount\Desktop\sandbox-utils-log.txt
+        C:\ProgramData\chocolatey\lib\nircmd\tools\nircmd.exe setsysvolume 0
+    ) else (
+        @rem file doesn't exist
+        echo nircmd not found in chocolatey folder >> C:\Users\WDAGUtilityAccount\Desktop\sandbox-utils-log.txt
+        goto :EOF
+    )
+
 ) else (
-    @rem echo nircmd found >> C:\Users\WDAGUtilityAccount\Desktop\nircmd.txt
-	echo nircmd found
+    echo nircmd found in path >> C:\Users\WDAGUtilityAccount\Desktop\sandbox-utils-log.txt
+    nircmd setsysvolume 0
 )
-
-@rem C:\ProgramData\chocolatey\lib\nircmd\tools\nircmd.exe setsysvolume 0
-@rem C:\ProgramData\chocolatey\lib\nircmd\tools\nircmd.exe setsysvolume 65535
-
-nircmd setsysvolume 0
 
 :EOF

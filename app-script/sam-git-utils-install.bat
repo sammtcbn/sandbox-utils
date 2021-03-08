@@ -1,6 +1,5 @@
-cd C:\
-git clone https://github.com/sammtcbn/git-utils.git
-cd C:\git-utils
-call win_setup.bat
-cd C:\
-rmdir C:\git-utils /s/q
+@echo off
+mkdir C:\sandbox-tmp
+git -C C:\sandbox-tmp clone https://github.com/sammtcbn/git-utils.git
+call C:\sandbox-tmp\git-utils\win_setup.bat
+rmdir C:\sandbox-tmp\git-utils /s/q

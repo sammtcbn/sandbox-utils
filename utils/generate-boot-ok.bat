@@ -1,2 +1,2 @@
 @echo off
-echo done > C:\Users\WDAGUtilityAccount\Desktop\boot-ok.txt
+echo done > C:\Users\%UserName%\Desktop\boot-ok.txt

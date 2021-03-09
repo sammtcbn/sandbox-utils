@@ -13,4 +13,8 @@
    </MappedFolder>
 </MappedFolders>
 
+<LogonCommand>
+   <Command>C:\sandbox-utils\multiapp-wsb\pure.bat</Command>
+</LogonCommand>
+
 </Configuration>

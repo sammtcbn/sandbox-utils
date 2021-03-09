@@ -1,0 +1,20 @@
+<Configuration>
+
+<MappedFolders>
+   <MappedFolder>
+      <HostFolder>C:\sandbox-utils</HostFolder>
+      <SandboxFolder>C:\sandbox-utils</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+   <MappedFolder>
+      <HostFolder>C:\sandbox-dl</HostFolder>
+      <SandboxFolder>C:\sandbox-dl</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+</MappedFolders>
+
+<LogonCommand>
+   <Command>C:\sandbox-utils\wsb-by-chocolatey\python-dev.bat</Command>
+</LogonCommand>
+
+</Configuration>

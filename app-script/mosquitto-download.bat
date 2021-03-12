@@ -1,2 +1,5 @@
-mkdir C:\sandbox-dl
-curl --output C:\sandbox-dl\mosquitto-installer.exe https://mosquitto.org/files/binary/win64/mosquitto-2.0.8-install-windows-x64.exe
+set URL=https://mosquitto.org/files/binary/win64
+set FN=mosquitto-2.0.8-install-windows-x64.exe
+set FULLURL="%URL%/%FN%"
+set OUT=%FN%
+call C:\sandbox-utils\utils\curl-dl.bat "%FULLURL%" %OUT%

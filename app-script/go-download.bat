@@ -1,2 +1,6 @@
-mkdir C:\sandbox-dl
-curl --output C:\sandbox-dl\go-installer.msi -L https://golang.org/dl/go1.16.windows-amd64.msi
+@echo off
+set URL=https://golang.org/dl
+set FN=go1.16.windows-amd64.msi
+set FULLURL="%URL%/%FN%"
+set OUT=%FN%
+call C:\sandbox-utils\utils\curl-dl.bat "%FULLURL%" %OUT%

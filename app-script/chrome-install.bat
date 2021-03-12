@@ -1,3 +1,8 @@
-mkdir C:\sandbox-dl
-curl --output C:\sandbox-dl\ChromeSetup.exe -L http://dl.google.com/chrome/install/latest/chrome_installer.exe
-C:\sandbox-dl\ChromeSetup.exe /silent /install
+@echo off
+set FN=ChromeSetup.exe
+call C:\sandbox-utils\utils\is-in-wsb.bat
+IF %ERRORLEVEL% EQU 0 (
+  C:\sandbox-tmp\%FN% /silent /install
+) else (
+  C:\sandbox-dl\%FN% /silent /install
+)

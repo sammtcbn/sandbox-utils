@@ -1,3 +1,4 @@
+@echo off
 set FN=StorageExplorer.exe
 call C:\sandbox-utils\utils\is-in-wsb.bat
 IF %ERRORLEVEL% EQU 0 (

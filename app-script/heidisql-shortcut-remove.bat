@@ -1,5 +1,5 @@
 @echo off
-set shortcut-filename=Brave.lnk
+set shortcut-filename=HeidiSQL.lnk
 set shortcut-path="C:\Users\Public\Desktop\%shortcut-filename%"
 if exist %shortcut-path% (
   del /f/q %shortcut-path%

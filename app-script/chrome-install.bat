@@ -1,8 +1,11 @@
 @echo off
-set FN=ChromeSetup.exe
 call C:\sandbox-utils\utils\is-in-wsb.bat
 IF %ERRORLEVEL% EQU 0 (
-  C:\sandbox-tmp\%FN% /silent /install
+  set dlpath=C:\sandbox-tmp
 ) else (
-  C:\sandbox-dl\%FN% /silent /install
+  set dlpath=C:\sandbox-dl
 )
+
+set FN=ChromeSetup.exe
+
+%dlpath%\%FN% /silent /install

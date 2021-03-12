@@ -1,8 +1,11 @@
 @echo off
-set FN=jq.exe
 call C:\sandbox-utils\utils\is-in-wsb.bat
 IF %ERRORLEVEL% EQU 0 (
-  call C:\sandbox-utils\utils\install-to-exec-path.bat C:\sandbox-tmp\%FN%
+  set dlpath=C:\sandbox-tmp
 ) else (
-  call C:\sandbox-utils\utils\install-to-exec-path.bat C:\sandbox-dl\%FN%
+  set dlpath=C:\sandbox-dl
 )
+
+set FN=jq.exe
+
+call C:\sandbox-utils\utils\install-to-exec-path.bat %dlpath%\%FN%

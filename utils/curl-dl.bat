@@ -1,19 +1,26 @@
 @echo off
 set url=%1
 set targetFileName=%2
+
+if exist C:\sandbox-dl\%targetFileName% (
+  echo %targetFileName% exist in C:\sandbox-dl
+  goto :bye
+)
+
 call C:\sandbox-utils\utils\is-in-wsb.bat
 IF %ERRORLEVEL% EQU 0 (
-  if not exist C:\sandbox-tmp\%targetFileName% (
-    call C:\sandbox-utils\utils\create-folder.bat C:\sandbox-tmp
-    curl --output C:\sandbox-tmp\%targetFileName% -L %url%
-  ) else (
-    echo C:\sandbox-tmp\%targetFileName% exist
-  )
+  set dlpath=C:\sandbox-tmp
 ) else (
-  if not exist C:\sandbox-dl\%targetFileName% (
-    call C:\sandbox-utils\utils\create-folder.bat C:\sandbox-dl
-    curl --output C:\sandbox-dl\%targetFileName% -L %url%
-  ) else (
-    echo C:\sandbox-dl\%targetFileName% exist
-  )
+  set dlpath=C:\sandbox-dl
 )
+
+if exist %dlpath%\%targetFileName% (
+  echo %targetFileName% exist in %dlpath%
+  goto :bye
+)
+
+call C:\sandbox-utils\utils\create-folder.bat %dlpath%
+
+curl --output %dlpath%\%targetFileName% -L %url%
+
+:bye

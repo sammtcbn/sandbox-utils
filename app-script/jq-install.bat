@@ -1,9 +1,8 @@
 @echo off
-set FN=jq-1.6-win64.exe
+set FN=jq.exe
 call C:\sandbox-utils\utils\is-in-wsb.bat
 IF %ERRORLEVEL% EQU 0 (
-  xcopy /Y /F C:\sandbox-tmp\%FN% C:\Users\%UserName%\AppData\Local\Microsoft\WindowsApps
+  call C:\sandbox-utils\utils\install-to-exec-path.bat C:\sandbox-tmp\%FN%
 ) else (
-  xcopy /Y /F C:\sandbox-dl\%FN% C:\Users\%UserName%\AppData\Local\Microsoft\WindowsApps
+  call C:\sandbox-utils\utils\install-to-exec-path.bat C:\sandbox-dl\%FN%
 )
-move /Y C:\Users\%UserName%\AppData\Local\Microsoft\WindowsApps\%FN% C:\Users\%UserName%\AppData\Local\Microsoft\WindowsApps\jq.exe

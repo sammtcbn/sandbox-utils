@@ -1,3 +1,4 @@
+@echo off
 set URL=https://aka.ms/vs/16/release
 set FN=vc_redist.x64.exe
 set FULLURL="%URL%/%FN%"

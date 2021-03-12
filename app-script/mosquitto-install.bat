@@ -1,3 +1,4 @@
+@echo off
 set FN=mosquitto-2.0.8-install-windows-x64.exe
 call C:\sandbox-utils\utils\is-in-wsb.bat
 IF %ERRORLEVEL% EQU 0 (

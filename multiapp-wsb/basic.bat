@@ -1,7 +1,10 @@
 call C:\sandbox-utils\utils\init.bat
 call C:\sandbox-utils\utils\wait-network-ready.bat
+call C:\sandbox-utils\app-script\msys2-favorite-binary-install.bat
 call C:\sandbox-utils\app-script\7zip-install.bat
 call C:\sandbox-utils\app-script\npp-install.bat
+call C:\sandbox-utils\app-script\chrome-install.bat
+call C:\sandbox-utils\app-script\chrome-shortcut-remove.bat
 call C:\sandbox-utils\app-script\git-install.bat
-call C:\sandbox-utils\app-script\brave-install.bat
+call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 call C:\sandbox-utils\utils\postaction.bat

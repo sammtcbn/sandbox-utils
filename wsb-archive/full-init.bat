@@ -6,6 +6,7 @@ call C:\sandbox-utils\app-script\chrome-download.bat
 call C:\sandbox-utils\app-script\git-download.bat
 call C:\sandbox-utils\app-script\sam-git-utils-download.bat
 call C:\sandbox-utils\app-script\nodejs-download.bat
+call C:\sandbox-utils\app-script\python-download.bat
 call C:\sandbox-utils\app-script\go-download.bat
 call C:\sandbox-utils\app-script\robo3t-download.bat
 call C:\sandbox-utils\app-script\azure-storage-explorer-download.bat

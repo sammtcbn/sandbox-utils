@@ -15,9 +15,10 @@ call C:\sandbox-utils\app-script\git-install.bat
 call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 
 @rem node.js
-call C:\sandbox-utils\app-script\nodejs-install
+call C:\sandbox-utils\app-script\nodejs-install.bat
 
 @rem python
+call C:\sandbox-utils\app-script\python-install.bat
 
 @rem go
 call C:\sandbox-utils\app-script\go-install.bat

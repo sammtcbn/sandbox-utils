@@ -14,7 +14,8 @@ call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 
 @rem python
 call C:\sandbox-utils\app-script\python-install.bat
-@rem call C:\sandbox-utils\app-script\python-pip-upgrade.bat
+call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
+call C:\sandbox-utils\app-script\python-pip-upgrade.bat
 
 @rem vscode
 call C:\sandbox-utils\app-script\vscode-install.bat

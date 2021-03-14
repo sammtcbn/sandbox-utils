@@ -19,7 +19,7 @@ if exist %dlpath%\%targetFileName% (
   goto :bye
 )
 
-call C:\sandbox-utils\utils\create-folder.bat %dlpath%
+call C:\sandbox-utils\utils\folder-create.bat %dlpath%
 
 curl --output %dlpath%\%targetFileName% -L %url%
 

@@ -10,7 +10,7 @@ if exist C:\sandbox-dl\%FN% (
 
 @rem %dlpath%\%FN% /S
 
-call C:\sandbox-utils\utils\create-folder.bat C:\sandbox-tmp
+call C:\sandbox-utils\utils\folder-create.bat C:\sandbox-tmp
 
 @rem git -C C:\sandbox-tmp clone https://github.com/sammtcbn/git-utils.git
 @rem call C:\sandbox-tmp\git-utils\win_setup.bat

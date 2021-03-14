@@ -8,7 +8,7 @@ if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-tmp
 )
 
-call C:\sandbox-utils\utils\create-folder.bat C:\sandbox-tmp
+call C:\sandbox-utils\utils\folder-create.bat C:\sandbox-tmp
 
 call C:\sandbox-utils\utils\zip-extract.bat %dlpath%\%FN% C:\sandbox-tmp
 

@@ -1,7 +1,7 @@
 @rem start
 call C:\sandbox-utils\utils\init.bat
 call C:\sandbox-utils\utils\wait-network-ready.bat
-call C:\sandbox-utils\utils\edge-shortcut-remove.bat
+call C:\sandbox-utils\app-script\edge-shortcut-remove.bat
 
 @rem system
 call C:\sandbox-utils\app-script\vc-redist-2015-2019-x64-install.bat
@@ -20,6 +20,7 @@ call C:\sandbox-utils\app-script\nodejs-install.bat
 
 @rem python
 call C:\sandbox-utils\app-script\python-install.bat
+@rem call C:\sandbox-utils\app-script\python-pip-upgrade.bat
 
 @rem go
 call C:\sandbox-utils\app-script\go-install.bat

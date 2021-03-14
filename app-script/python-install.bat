@@ -8,6 +8,7 @@ if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-tmp
 )
 
-%dlpath%\%FN% /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
+@rem %dlpath%\%FN% /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
+%dlpath%\%FN% /quiet PrependPath=1 Include_test=0
 
 @rem refer to https://docs.python.org/3/using/windows.html

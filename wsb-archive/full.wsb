@@ -14,7 +14,7 @@
 </MappedFolders>
 
 <LogonCommand>
-   <Command>C:\sandbox-utils\multiapp-wsb\full.bat</Command>
+   <Command>C:\sandbox-utils\wsb-archive\full.bat</Command>
 </LogonCommand>
 
 </Configuration>

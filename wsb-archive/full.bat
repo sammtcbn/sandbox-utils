@@ -1,3 +1,4 @@
+@rem start
 call C:\sandbox-utils\utils\init.bat
 call C:\sandbox-utils\utils\wait-network-ready.bat
 call C:\sandbox-utils\utils\edge-shortcut-remove.bat
@@ -58,4 +59,5 @@ call C:\sandbox-utils\app-script\nircmd-install.bat
 @rem boxstarter
 @rem call C:\sandbox-utils\app-script\boxstarter-install.bat
 
+@rem end
 call C:\sandbox-utils\utils\postaction.bat

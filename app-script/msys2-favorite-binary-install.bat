@@ -11,3 +11,5 @@ if exist C:\sandbox-dl\%FN% (
 call C:\sandbox-utils\utils\zip-extract.bat %dlpath%\%FN% C:\sandbox-tmp
 
 call C:\sandbox-tmp\msys2-favorite-binary\00-install.bat
+
+rmdir C:\sandbox-tmp\msys2-favorite-binary /s/q

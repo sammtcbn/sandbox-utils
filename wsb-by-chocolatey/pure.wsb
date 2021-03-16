@@ -14,7 +14,7 @@
 </MappedFolders>
 
 <LogonCommand>
-   <Command>C:\sandbox-utils\wsb-archive\chocolatey.bat</Command>
+   <Command>C:\sandbox-utils\wsb-by-chocolatey\pure.bat</Command>
 </LogonCommand>
 
 </Configuration>

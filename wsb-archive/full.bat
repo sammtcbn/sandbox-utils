@@ -40,18 +40,20 @@ call C:\sandbox-utils\app-script\vscode-install.bat
 @rem mosquitto
 call C:\sandbox-utils\app-script\mosquitto-install.bat
 
-@rem misc
-@rem call C:\sandbox-utils\app-script\brave-install.bat
-@rem call C:\sandbox-utils\app-script\brave-shortcut-remove.bat
-call C:\sandbox-utils\app-script\bginfo-install.bat
-call C:\sandbox-utils\app-script\bginfo-apply-setting.bat
-call C:\sandbox-utils\app-script\jq-install.bat
-@rem call C:\sandbox-utils\app-script\marktext-install.bat
-@rem call C:\sandbox-utils\app-script\marktext-shortcut-remove.bat
+@rem entertainment
 call C:\sandbox-utils\app-script\nircmd-install.bat
 @rem call C:\sandbox-utils\app-script\nircmd-mute.bat
 @rem call C:\sandbox-utils\app-script\nircmd-volume-highest.bat
+
+@rem misc
+@rem call C:\sandbox-utils\app-script\brave-install.bat
+@rem call C:\sandbox-utils\app-script\brave-shortcut-remove.bat
+call C:\sandbox-utils\app-script\jq-install.bat
+@rem call C:\sandbox-utils\app-script\marktext-install.bat
+@rem call C:\sandbox-utils\app-script\marktext-shortcut-remove.bat
 @rem call C:\sandbox-utils\app-script\typora-install.bat
+call C:\sandbox-utils\app-script\bginfo-install.bat
+call C:\sandbox-utils\app-script\bginfo-apply-setting.bat
 
 @rem chocolatey
 @rem call C:\sandbox-utils\app-script\chocolatey-install.bat

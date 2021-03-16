@@ -53,7 +53,7 @@ choco install -y k-litecodecpackfull >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y vlc >> C:\sandbox-tmp\chocolatey-log.txt
 call C:\sandbox-utils\app-script\vlc-shortcut-remove.bat
 choco install -y nircmd >> C:\sandbox-tmp\chocolatey-log.txt
-call C:\sandbox-utils\app-script\nircmd-volume-highest.bat
+@rem call C:\sandbox-utils\app-script\nircmd-volume-highest.bat
 @rem call C:\sandbox-utils\app-script\nircmd-mute.bat
 
 @rem misc
@@ -62,6 +62,9 @@ call C:\sandbox-utils\app-script\brave-shortcut-remove.bat
 choco install -y firefox >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y opera >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y microsoft-edge >> C:\sandbox-tmp\chocolatey-log.txt
+choco install -y jq >> C:\sandbox-tmp\chocolatey-log.txt
+choco install -y bginfo >> C:\sandbox-tmp\chocolatey-log.txt
+call C:\sandbox-utils\app-script\bginfo-apply-setting.bat
 
 @rem end
 call C:\sandbox-utils\utils\postaction.bat

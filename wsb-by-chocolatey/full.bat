@@ -36,6 +36,9 @@ pip install --upgrade pip >> C:\sandbox-tmp\python-pip-log.txt
 @rem mongodb develop
 pip install pymongo >> C:\sandbox-tmp\python-pip-log.txt
 
+@rem PostgreSQL
+choco install -y postgresql >> C:\sandbox-tmp\chocolatey-log.txt
+
 @rem database tools
 choco install -y robo3t >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y dbeaver >> C:\sandbox-tmp\chocolatey-log.txt
@@ -49,7 +52,8 @@ choco install -y angryip >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y vscode >> C:\sandbox-tmp\chocolatey-log.txt
 
 @rem Visual Studio 2019 Community
-choco install -y visualstudio2019community visualstudio2019-workload-nativedesktop >> C:\sandbox-tmp\chocolatey-log.txt
+choco install -y visualstudio2019community >> C:\sandbox-tmp\chocolatey-log.txt
+choco install -y visualstudio2019-workload-nativedesktop >> C:\sandbox-tmp\chocolatey-log.txt
 
 @rem entertainment
 choco install -y k-litecodecpackfull >> C:\sandbox-tmp\chocolatey-log.txt

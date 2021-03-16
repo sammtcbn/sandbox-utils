@@ -35,7 +35,10 @@ pip install --upgrade pip >> C:\sandbox-tmp\python-pip-log.txt
 
 @rem mongodb develop
 pip install pymongo >> C:\sandbox-tmp\python-pip-log.txt
+
+@rem database tools
 choco install -y robo3t >> C:\sandbox-tmp\chocolatey-log.txt
+choco install -y dbeaver >> C:\sandbox-tmp\chocolatey-log.txt
 
 @rem network util
 choco install -y postman >> C:\sandbox-tmp\chocolatey-log.txt

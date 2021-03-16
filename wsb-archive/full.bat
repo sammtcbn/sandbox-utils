@@ -25,16 +25,18 @@ call C:\sandbox-utils\app-script\python-install.bat
 @rem go
 call C:\sandbox-utils\app-script\go-install.bat
 
-@rem mongodb develop
-@rem call C:\sandbox-utils\app-script\robo3t-install.bat
-@rem call C:\sandbox-utils\app-script\robo3t-shortcut-remove.bat
-
 @rem database tools
+call C:\sandbox-utils\app-script\robo3t-install.bat
+call C:\sandbox-utils\app-script\robo3t-shortcut-remove.bat
+call C:\sandbox-utils\app-script\dbeaver-install.bat
 
 @rem azure
-@rem call C:\sandbox-utils\app-script\azure-storage-explorer-install.bat
+call C:\sandbox-utils\app-script\azure-storage-explorer-install.bat
 
-@rem vscode
+@rem network util
+call C:\sandbox-utils\app-script\angry-ip-scanner-install.bat
+
+@rem Visual Studio Code
 call C:\sandbox-utils\app-script\vscode-install.bat
 
 @rem mosquitto

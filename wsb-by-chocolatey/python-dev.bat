@@ -20,5 +20,15 @@ call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat python
 call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
 call C:\sandbox-utils\app-script\python-pip-upgrade.bat
 
+@rem python package
+
+@rem Visual Studio Code
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat vscode
+
+@rem misc
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat jq
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat bginfo
+call C:\sandbox-utils\app-script\bginfo-apply-setting.bat
+
 @rem end
 call C:\sandbox-utils\utils\postaction.bat

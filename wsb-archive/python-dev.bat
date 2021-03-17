@@ -17,13 +17,15 @@ call C:\sandbox-utils\app-script\python-install.bat
 call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
 call C:\sandbox-utils\app-script\python-pip-upgrade.bat
 
-@rem vscode
+@rem python package
+
+@rem Visual Studio Code
 call C:\sandbox-utils\app-script\vscode-install.bat
 
 @rem misc
+call C:\sandbox-utils\app-script\jq-install.bat
 call C:\sandbox-utils\app-script\bginfo-install.bat
 call C:\sandbox-utils\app-script\bginfo-apply-setting.bat
-call C:\sandbox-utils\app-script\jq-install.bat
 
 @rem end
 call C:\sandbox-utils\utils\postaction.bat

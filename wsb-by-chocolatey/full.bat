@@ -35,6 +35,8 @@ call C:\sandbox-utils\app-script\python-pip-upgrade.bat
 
 @rem python package
 call C:\sandbox-utils\app-script\python-pkg-ins.bat pymongo
+call C:\sandbox-utils\app-script\python-pkg-ins.bat pywin32
+call C:\sandbox-utils\app-script\python-pkg-ins.bat PyQt5
 
 @rem go
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat golang

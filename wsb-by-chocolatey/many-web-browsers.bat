@@ -8,18 +8,19 @@ call C:\sandbox-utils\app-script\chocolatey-install.bat
 
 @rem basic - msys2-favorite-binary , 7zip, notepad++ , chrome , git , sam-git-utils-install
 call C:\sandbox-utils\app-script\msys2-favorite-binary-install.bat
-choco install -y 7zip >> C:\sandbox-tmp\chocolatey-log.txt
-choco install -y notepadplusplus >> C:\sandbox-tmp\chocolatey-log.txt
-choco install -y googlechrome >> C:\sandbox-tmp\chocolatey-log.txt
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat 7zip
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat notepadplusplus
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat googlechrome
 call C:\sandbox-utils\app-script\chrome-shortcut-remove.bat
-choco install -y git.install >> C:\sandbox-tmp\chocolatey-log.txt
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat git.install
 call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 
-@rem misc
-choco install -y brave --pre >> C:\sandbox-tmp\chocolatey-log.txt
-choco install -y firefox >> C:\sandbox-tmp\chocolatey-log.txt
-choco install -y opera >> C:\sandbox-tmp\chocolatey-log.txt
-choco install -y microsoft-edge >> C:\sandbox-tmp\chocolatey-log.txt
+@rem web browser
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat brave --pre
+call C:\sandbox-utils\app-script\brave-shortcut-remove.bat
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat firefox
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat opera
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat microsoft-edge
 
 @rem end
 call C:\sandbox-utils\utils\postaction.bat

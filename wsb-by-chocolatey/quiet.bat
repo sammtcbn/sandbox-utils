@@ -8,20 +8,20 @@ call C:\sandbox-utils\app-script\chocolatey-install.bat
 
 @rem basic - msys2-favorite-binary , 7zip, notepad++ , chrome , git , sam-git-utils-install
 call C:\sandbox-utils\app-script\msys2-favorite-binary-install.bat
-choco install -y 7zip >> C:\sandbox-tmp\chocolatey-log.txt
-choco install -y notepadplusplus >> C:\sandbox-tmp\chocolatey-log.txt
-choco install -y googlechrome >> C:\sandbox-tmp\chocolatey-log.txt
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat 7zip
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat notepadplusplus
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat googlechrome
 
 @rem entertainment
-choco install -y k-litecodecpackfull >> C:\sandbox-tmp\chocolatey-log.txt
-choco install -y vlc >> C:\sandbox-tmp\chocolatey-log.txt
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat k-litecodecpackfull
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat vlc
 call C:\sandbox-utils\app-script\vlc-shortcut-remove.bat
-choco install -y nircmd >> C:\sandbox-tmp\chocolatey-log.txt
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat nircmd
 @rem call C:\sandbox-utils\app-script\nircmd-volume-highest.bat
 call C:\sandbox-utils\app-script\nircmd-mute.bat
 
 @rem misc
-choco install -y brave --pre >> C:\sandbox-tmp\chocolatey-log.txt
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat brave --pre
 
 @rem end
 call C:\sandbox-utils\utils\postaction.bat

@@ -20,7 +20,11 @@ call C:\sandbox-utils\app-script\nodejs-install.bat
 
 @rem python
 call C:\sandbox-utils\app-script\python-install.bat
-@rem call C:\sandbox-utils\app-script\python-pip-upgrade.bat
+call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
+call C:\sandbox-utils\app-script\python-pip-upgrade.bat
+
+@rem python package
+call C:\sandbox-utils\app-script\python-pkg-ins.bat pymongo
 
 @rem go
 call C:\sandbox-utils\app-script\go-install.bat

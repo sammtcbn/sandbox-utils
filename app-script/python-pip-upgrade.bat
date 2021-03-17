@@ -6,7 +6,8 @@ if /I %ERRORLEVEL% NEQ 0 (
 ) else (
 	@rem call C:\sandbox-utils\utils\logw.bat pip found in path
     @rem pip install --upgrade pip
-	pip install --upgrade pip --user
+	@rem pip install --upgrade pip --user
+	call C:\sandbox-utils\app-script\python-pkg-ins.bat --upgrade pip --user
 )
 
 :EOF

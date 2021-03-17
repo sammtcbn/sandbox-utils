@@ -2,9 +2,9 @@
 
 WHERE pip
 if /I %ERRORLEVEL% NEQ 0 (
-    echo pip not found in path >> C:\sandbox-tmp\sandbox-utils-log.txt
+	call C:\sandbox-utils\utils\logw.bat pip not found in path
 ) else (
-    @rem echo pip found in path >> C:\sandbox-tmp\sandbox-utils-log.txt
+	@rem call C:\sandbox-utils\utils\logw.bat pip found in path
     @rem pip install --upgrade pip
 	pip install --upgrade pip --user
 )

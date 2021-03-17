@@ -2,23 +2,23 @@
 WHERE refreshenv
 if /I %ERRORLEVEL% NEQ 0 (
 
-    @rem echo refreshenv not found in path >> C:\sandbox-tmp\sandbox-utils-log.txt
+	@rem call C:\sandbox-utils\utils\logw.bat refreshenv not found in path
 
     if exist C:\ProgramData\chocolatey\bin\RefreshEnv.cmd (
         @rem file exists
-        @rem echo refreshenv found in chocolatey folder >> C:\sandbox-tmp\sandbox-utils-log.txt
+		@rem call C:\sandbox-utils\utils\logw.bat refreshenv found in chocolatey folder
         call C:\ProgramData\chocolatey\bin\RefreshEnv.cmd
     ) else if exist C:\sandbox-utils\utils\RefreshEnv.cmd (
-	    @rem echo refreshenv found in sandbox-utils folder >> C:\sandbox-tmp\sandbox-utils-log.txt
+		@rem call C:\sandbox-utils\utils\logw.bat refreshenv found in sandbox-utils folder
 	    call C:\sandbox-utils\utils\RefreshEnv.cmd
 	) else (
         @rem file doesn't exist
-        echo refreshenv not found >> C:\sandbox-tmp\sandbox-utils-log.txt
+		call C:\sandbox-utils\utils\logw.bat refreshenv not found
         goto :EOF
     )
 	
 ) else (
-    @rem echo refreshenv found in path >> C:\sandbox-tmp\sandbox-utils-log.txt
+	@rem call C:\sandbox-utils\utils\logw.bat refreshenv found in path
     refreshenv	
 )
 

@@ -3,20 +3,20 @@
 WHERE nircmd
 if /I %ERRORLEVEL% NEQ 0 (
 
-    echo nircmd not found in path >> C:\sandbox-tmp\sandbox-utils-log.txt
+	call C:\sandbox-utils\utils\logw.bat nircmd not found in path
 
     if exist C:\ProgramData\chocolatey\lib\nircmd\tools\nircmd.exe (
         @rem file exists
-        @rem echo nircmd found in chocolatey folder >> C:\sandbox-tmp\sandbox-utils-log.txt
-        C:\ProgramData\chocolatey\lib\nircmd\tools\nircmd.exe setsysvolume 65535
+		@rem call C:\sandbox-utils\utils\logw.bat nircmd found in chocolatey folder
+        C:\ProgramData\chocolatey\lib\nircmd\tools\nircmd.exe setsysvolume 0
     ) else (
         @rem file doesn't exist
-        echo nircmd not found in chocolatey folder >> C:\sandbox-tmp\sandbox-utils-log.txt
+		call C:\sandbox-utils\utils\logw.bat nircmd not found in chocolatey folder
         goto :EOF
     )
 
 ) else (
-    @rem echo nircmd found in path >> C:\sandbox-tmp\sandbox-utils-log.txt
+	@rem call C:\sandbox-utils\utils\logw.bat nircmd found in chocolatey folder
     nircmd setsysvolume 65535
 )
 

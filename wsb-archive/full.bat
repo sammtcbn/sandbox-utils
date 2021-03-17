@@ -46,6 +46,7 @@ call C:\sandbox-utils\app-script\vscode-install.bat
 call C:\sandbox-utils\app-script\mosquitto-install.bat
 
 @rem entertainment
+call C:\sandbox-utils\app-script\k-lite-codec-pack-full-install.bat
 call C:\sandbox-utils\app-script\vlc-install.bat
 call C:\sandbox-utils\app-script\vlc-shortcut-remove.bat
 call C:\sandbox-utils\app-script\nircmd-install.bat

@@ -18,6 +18,7 @@ call C:\sandbox-utils\app-script\brave-download.bat
 call C:\sandbox-utils\app-script\bginfo-download.bat
 call C:\sandbox-utils\app-script\jq-download.bat
 @rem call C:\sandbox-utils\app-script\marktext-download.bat
+call C:\sandbox-utils\app-script\k-lite-codec-pack-full-download.bat
 call C:\sandbox-utils\app-script\vlc-download.bat
 call C:\sandbox-utils\app-script\nircmd-download.bat
 @rem call C:\sandbox-utils\app-script\typora-download.bat

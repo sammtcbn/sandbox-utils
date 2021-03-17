@@ -34,9 +34,6 @@ call C:\sandbox-utils\app-script\robo3t-install.bat
 call C:\sandbox-utils\app-script\robo3t-shortcut-remove.bat
 call C:\sandbox-utils\app-script\dbeaver-install.bat
 
-@rem azure
-call C:\sandbox-utils\app-script\azure-storage-explorer-install.bat
-
 @rem network util
 call C:\sandbox-utils\app-script\angry-ip-scanner-install.bat
 
@@ -51,9 +48,14 @@ call C:\sandbox-utils\app-script\nircmd-install.bat
 @rem call C:\sandbox-utils\app-script\nircmd-mute.bat
 @rem call C:\sandbox-utils\app-script\nircmd-volume-highest.bat
 
+@rem cloud service
+call C:\sandbox-utils\app-script\azure-storage-explorer-install.bat
+
+@rem web browser
+call C:\sandbox-utils\app-script\brave-install.bat
+call C:\sandbox-utils\app-script\brave-shortcut-remove.bat
+
 @rem misc
-@rem call C:\sandbox-utils\app-script\brave-install.bat
-@rem call C:\sandbox-utils\app-script\brave-shortcut-remove.bat
 call C:\sandbox-utils\app-script\jq-install.bat
 @rem call C:\sandbox-utils\app-script\marktext-install.bat
 @rem call C:\sandbox-utils\app-script\marktext-shortcut-remove.bat

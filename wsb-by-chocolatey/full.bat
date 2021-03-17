@@ -33,7 +33,7 @@ choco install -y python >> C:\sandbox-tmp\chocolatey-log.txt
 call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
 pip install --upgrade pip >> C:\sandbox-tmp\python-pip-log.txt
 
-@rem mongodb develop
+@rem python package
 pip install pymongo >> C:\sandbox-tmp\python-pip-log.txt
 
 @rem PostgreSQL
@@ -42,11 +42,15 @@ choco install -y postgresql >> C:\sandbox-tmp\chocolatey-log.txt
 @rem database tools
 choco install -y robo3t >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y dbeaver >> C:\sandbox-tmp\chocolatey-log.txt
+choco install -y heidisql >> C:\sandbox-tmp\chocolatey-log.txt
 
-@rem network util
+@rem network tools
 choco install -y postman >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y wireshark >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y angryip >> C:\sandbox-tmp\chocolatey-log.txt
+
+@rem storage tools
+choco install -y rclone >> C:\sandbox-tmp\chocolatey-log.txt
 
 @rem Visual Studio Code
 choco install -y vscode >> C:\sandbox-tmp\chocolatey-log.txt
@@ -63,12 +67,18 @@ choco install -y nircmd >> C:\sandbox-tmp\chocolatey-log.txt
 @rem call C:\sandbox-utils\app-script\nircmd-volume-highest.bat
 @rem call C:\sandbox-utils\app-script\nircmd-mute.bat
 
-@rem misc
+@rem cloud service
+choco install -y azcopy10 >> C:\sandbox-tmp\chocolatey-log.txt
+choco install -y microsoftazurestorageexplorer >> C:\sandbox-tmp\chocolatey-log.txt
+
+@rem web browser
 choco install -y brave --pre >> C:\sandbox-tmp\chocolatey-log.txt
 call C:\sandbox-utils\app-script\brave-shortcut-remove.bat
 choco install -y firefox >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y opera >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y microsoft-edge >> C:\sandbox-tmp\chocolatey-log.txt
+
+@rem misc
 choco install -y jq >> C:\sandbox-tmp\chocolatey-log.txt
 choco install -y bginfo >> C:\sandbox-tmp\chocolatey-log.txt
 call C:\sandbox-utils\app-script\bginfo-apply-setting.bat

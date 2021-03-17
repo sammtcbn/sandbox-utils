@@ -36,7 +36,7 @@ call C:\sandbox-utils\app-script\robo3t-install.bat
 call C:\sandbox-utils\app-script\robo3t-shortcut-remove.bat
 call C:\sandbox-utils\app-script\dbeaver-install.bat
 
-@rem network util
+@rem network tools
 call C:\sandbox-utils\app-script\angry-ip-scanner-install.bat
 
 @rem Visual Studio Code
@@ -65,9 +65,11 @@ call C:\sandbox-utils\app-script\jq-install.bat
 call C:\sandbox-utils\app-script\bginfo-install.bat
 call C:\sandbox-utils\app-script\bginfo-apply-setting.bat
 
-@rem chocolatey
-@rem call C:\sandbox-utils\app-script\chocolatey-install.bat
-@rem call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
+@rem ---------------------------------------------------------------
+@rem install by chocolatey
+@rem ---------------------------------------------------------------
+call C:\sandbox-utils\app-script\chocolatey-install.bat
+call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
 
 @rem boxstarter
 @rem call C:\sandbox-utils\app-script\boxstarter-install.bat

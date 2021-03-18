@@ -5,7 +5,7 @@ call C:\sandbox-utils\app-script\npp-download.bat
 call C:\sandbox-utils\app-script\chrome-download.bat
 call C:\sandbox-utils\app-script\git-download.bat
 call C:\sandbox-utils\app-script\sam-git-utils-download.bat
-call C:\sandbox-utils\app-script\windows-termina-download.bat
+call C:\sandbox-utils\app-script\windows-terminal-download.bat
 call C:\sandbox-utils\app-script\nodejs-download.bat
 call C:\sandbox-utils\app-script\python-download.bat
 call C:\sandbox-utils\app-script\go-download.bat

@@ -13,6 +13,8 @@ call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat 7zip
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat notepadplusplus
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat googlechrome
 call C:\sandbox-utils\app-script\chrome-shortcut-remove.bat
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat setdefaultbrowser
+call C:\sandbox-utils\app-script\setdefaultbrowser-chrome.bat
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat git.install
 call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 

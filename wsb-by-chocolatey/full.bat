@@ -21,6 +21,9 @@ call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 @rem NOTE: After git is installed, Need to call chocolatey-refreshenv.bat once before git clone project later in this batch file
 @rem call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
 
+@rem terminal
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat microsoft-windows-terminal --pre
+
 @rem editor
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat libreoffice
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat adobereader

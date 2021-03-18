@@ -8,3 +8,4 @@ call C:\sandbox-utils\app-script\python-download.bat
 call C:\sandbox-utils\app-script\vscode-download.bat
 call C:\sandbox-utils\app-script\bginfo-download.bat
 call C:\sandbox-utils\app-script\jq-download.bat
+call C:\sandbox-utils\app-script\setdefaultbrowser-download.bat

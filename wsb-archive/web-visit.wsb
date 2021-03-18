@@ -19,7 +19,7 @@
 </MappedFolders>
 
 <LogonCommand>
-   <Command>C:\sandbox-utils\wsb-archive\boxstarter.bat</Command>
+   <Command>C:\sandbox-utils\wsb-archive\web-visit.bat</Command>
 </LogonCommand>
 
 </Configuration>

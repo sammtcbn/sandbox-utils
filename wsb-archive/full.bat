@@ -92,6 +92,10 @@ call C:\sandbox-utils\app-script\jq-install.bat
 call C:\sandbox-utils\app-script\bginfo-install.bat
 call C:\sandbox-utils\app-script\bginfo-apply-setting.bat
 
+@rem open web page
+call C:\sandbox-utils\app-script\chrome-incognito-openurl.bat https://www.google.com/
+call C:\sandbox-utils\app-script\brave-incognito-openurl.bat https://www.google.com/
+
 @rem ---------------------------------------------------------------
 @rem install by chocolatey
 @rem ---------------------------------------------------------------

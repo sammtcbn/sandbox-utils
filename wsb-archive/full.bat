@@ -24,9 +24,23 @@ call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
 call C:\sandbox-utils\app-script\python-pip-upgrade.bat
 
 @rem python package
+call C:\sandbox-utils\app-script\python-pkg-ins.bat beautifulsoup4
+call C:\sandbox-utils\app-script\python-pkg-ins.bat django
+call C:\sandbox-utils\app-script\python-pkg-ins.bat flask
+call C:\sandbox-utils\app-script\python-pkg-ins.bat jupyter
+call C:\sandbox-utils\app-script\python-pkg-ins.bat matplotlib
+call C:\sandbox-utils\app-script\python-pkg-ins.bat numpy
+call C:\sandbox-utils\app-script\python-pkg-ins.bat pandas
 call C:\sandbox-utils\app-script\python-pkg-ins.bat pymongo
-call C:\sandbox-utils\app-script\python-pkg-ins.bat pywin32
+call C:\sandbox-utils\app-script\python-pkg-ins.bat pymysql
 call C:\sandbox-utils\app-script\python-pkg-ins.bat PyQt5
+call C:\sandbox-utils\app-script\python-pkg-ins.bat pyquery
+call C:\sandbox-utils\app-script\python-pkg-ins.bat pywin32
+call C:\sandbox-utils\app-script\python-pkg-ins.bat redis
+call C:\sandbox-utils\app-script\python-pkg-ins.bat requests
+call C:\sandbox-utils\app-script\python-pkg-ins.bat scipy
+call C:\sandbox-utils\app-script\python-pkg-ins.bat seaborn
+call C:\sandbox-utils\app-script\python-pkg-ins.bat selenium
 
 @rem go
 call C:\sandbox-utils\app-script\go-install.bat

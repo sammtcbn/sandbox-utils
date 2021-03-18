@@ -22,5 +22,8 @@ call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat visualstudio2019community
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat visualstudio2019-workload-nativedesktop
 
+@rem dev tools
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat winmerge
+
 @rem end
 call C:\sandbox-utils\utils\postaction.bat

@@ -21,5 +21,8 @@ call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 @rem node.js LTS
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat nodejs-lts
 
+@rem dev tools
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat winmerge
+
 @rem end
 call C:\sandbox-utils\utils\postaction.bat

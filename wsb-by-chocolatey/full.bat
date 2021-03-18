@@ -52,6 +52,9 @@ call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat robo3t
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat dbeaver
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat heidisql
 
+@rem dev tools
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat winmerge
+
 @rem network tools
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat postman
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat wireshark

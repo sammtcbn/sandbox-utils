@@ -14,4 +14,5 @@ call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 call C:\sandbox-utils\app-script\windows-termina-install.bat
 call C:\sandbox-utils\app-script\nodejs-install.bat
 call C:\sandbox-utils\app-script\vscode-install.bat
+call C:\sandbox-utils\app-script\winmerge-install.bat
 call C:\sandbox-utils\utils\postaction.bat

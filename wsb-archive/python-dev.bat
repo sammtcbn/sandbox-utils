@@ -28,6 +28,9 @@ call C:\sandbox-utils\app-script\python-pip-upgrade.bat
 @rem Visual Studio Code
 call C:\sandbox-utils\app-script\vscode-install.bat
 
+@rem dev tools
+call C:\sandbox-utils\app-script\winmerge-install.bat
+
 @rem misc
 call C:\sandbox-utils\app-script\jq-install.bat
 call C:\sandbox-utils\app-script\bginfo-install.bat

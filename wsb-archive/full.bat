@@ -57,6 +57,9 @@ call C:\sandbox-utils\app-script\robo3t-shortcut-remove.bat
 call C:\sandbox-utils\app-script\dbeaver-install.bat
 call C:\sandbox-utils\app-script\heidisql-install.bat
 
+@rem dev tools
+call C:\sandbox-utils\app-script\winmerge-install.bat
+
 @rem network tools
 call C:\sandbox-utils\app-script\angry-ip-scanner-install.bat
 

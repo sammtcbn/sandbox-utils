@@ -25,3 +25,4 @@ call C:\sandbox-utils\app-script\vlc-download.bat
 call C:\sandbox-utils\app-script\nircmd-download.bat
 @rem call C:\sandbox-utils\app-script\typora-download.bat
 call C:\sandbox-utils\app-script\setdefaultbrowser-download.bat
+call C:\sandbox-utils\app-script\winmerge-download.bat

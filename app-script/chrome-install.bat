@@ -1,6 +1,8 @@
 @echo off
 
-set FN=ChromeSetup.exe
+@rem set FN=ChromeSetup.exe
+
+set FN=googlechromestandaloneenterprise64.msi
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl
@@ -8,4 +10,6 @@ if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-tmp
 )
 
-%dlpath%\%FN% /silent /install
+@rem %dlpath%\%FN% /silent /install
+
+%dlpath%\%FN% /quiet /norestart

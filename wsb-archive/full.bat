@@ -61,6 +61,7 @@ call C:\sandbox-utils\app-script\heidisql-install.bat
 call C:\sandbox-utils\app-script\winmerge-install.bat
 
 @rem network tools
+call C:\sandbox-utils\app-script\postman-install.bat
 call C:\sandbox-utils\app-script\angry-ip-scanner-install.bat
 
 @rem Visual Studio Code

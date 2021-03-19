@@ -21,6 +21,9 @@ call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat tux-typing
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat tux-paint
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat supertuxkart
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat super-mario-bros-java
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat chromiumbsu
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat pacman
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat pacman-revenge
 
 @rem end
 call C:\sandbox-utils\utils\postaction.bat

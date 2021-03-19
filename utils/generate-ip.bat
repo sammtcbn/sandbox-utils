@@ -17,7 +17,11 @@ for /f "usebackq tokens=*" %%a in (`ipconfig ^| findstr IPv4`) do (
       rem strip leading space from first octet
       set _4octet=!_o1:~1!.!_o2!.!_o3!.!_o4!
       echo !_4octet!
-      echo !_4octet! > C:\Users\%UserName%\Desktop\ip-!_4octet!.txt
+
+      @rem echo !_4octet! > C:\Users\%UserName%\Desktop\ip-!_4octet!.txt
+
+	  call C:\sandbox-utils\utils\folder-create.bat C:\sandbox-tmp
+	  echo !_4octet! > C:\sandbox-tmp\ip-!_4octet!.txt
       )
     )
   )

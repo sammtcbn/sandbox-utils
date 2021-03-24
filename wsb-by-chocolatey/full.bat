@@ -44,6 +44,12 @@ call C:\sandbox-utils\app-script\python-pip-upgrade.bat
 @rem go
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat golang
 
+@rem kotlin
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat kotlinc
+
+@rem Android development
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat androidstudio
+
 @rem PostgreSQL
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat postgresql
 

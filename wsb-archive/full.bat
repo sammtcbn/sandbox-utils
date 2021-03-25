@@ -51,6 +51,9 @@ call C:\sandbox-utils\app-script\python-pkg-ins.bat selenium
 @rem go
 call C:\sandbox-utils\app-script\go-install.bat
 
+@rem android development
+call C:\sandbox-utils\app-script\androidstudio-install.bat
+
 @rem database tools
 call C:\sandbox-utils\app-script\robo3t-install.bat
 call C:\sandbox-utils\app-script\robo3t-shortcut-remove.bat

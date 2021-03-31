@@ -34,6 +34,9 @@ call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat nodejs --version=12.14.0
 @rem node.js LTS
 @rem call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat nodejs-lts
 
+@rem deno
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat deno
+
 @rem python
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat python
 call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat

@@ -1,6 +1,6 @@
 @echo off
 
-set FN=go1.16.2.windows-amd64.msi
+set FN=go1.16.3.windows-amd64.msi
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

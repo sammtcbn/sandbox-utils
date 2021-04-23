@@ -1,6 +1,6 @@
 @echo off
 
-set FN=python-3.9.2-amd64.exe
+set FN=python-3.9.4-amd64.exe
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

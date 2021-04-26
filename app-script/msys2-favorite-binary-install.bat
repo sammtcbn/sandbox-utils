@@ -1,6 +1,6 @@
 @echo off
 
-set FN=msys2-favorite-binary-1.0.0.zip
+set FN=msys2-favorite-binary-1.0.1.zip
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

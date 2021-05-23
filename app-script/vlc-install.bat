@@ -1,6 +1,6 @@
 @echo off
 
-set FN=vlc-3.0.12-win64.exe
+set FN=vlc-3.0.14-win64.exe
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

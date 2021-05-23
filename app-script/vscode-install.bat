@@ -1,6 +1,6 @@
 @echo off
 
-set FN=VSCodeUserSetup-x64-1.54.3.exe
+set FN=VSCodeUserSetup-x64-1.56.2.exe
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

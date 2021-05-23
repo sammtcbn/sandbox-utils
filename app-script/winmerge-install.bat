@@ -1,6 +1,6 @@
 @echo off
 
-set FN=WinMerge-2.16.10-x64-Setup.exe
+set FN=WinMerge-2.16.12-x64-Setup.exe
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

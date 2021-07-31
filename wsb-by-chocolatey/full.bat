@@ -50,6 +50,9 @@ call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat golang
 @rem kotlin
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat kotlinc
 
+@rem flutter
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat flutter --pre
+
 @rem Android development
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat androidstudio
 

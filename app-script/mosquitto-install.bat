@@ -1,6 +1,6 @@
 @echo off
 
-set FN=mosquitto-2.0.10-install-windows-x64.exe
+set FN=mosquitto-2.0.11-install-windows-x64.exe
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

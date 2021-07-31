@@ -16,7 +16,7 @@ call C:\sandbox-utils\app-script\git-install.bat
 call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 
 @rem terminal
-call C:\sandbox-utils\app-script\windows-termina-install.bat
+call C:\sandbox-utils\app-script\windows-terminal-install.bat
 
 @rem python
 call C:\sandbox-utils\app-script\python-install.bat

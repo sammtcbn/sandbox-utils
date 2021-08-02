@@ -1,6 +1,6 @@
 @echo off
 
-set FN=node-v12.22.1-x64.msi
+set FN=node-v12.22.4-x64.msi
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

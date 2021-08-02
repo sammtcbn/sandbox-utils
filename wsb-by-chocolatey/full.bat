@@ -102,6 +102,9 @@ call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat firefox
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat opera
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat microsoft-edge
 
+@rem MQTT.fx
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat mqttfx
+
 @rem misc
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat jq
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat bginfo

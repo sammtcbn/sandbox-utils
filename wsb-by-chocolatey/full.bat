@@ -56,6 +56,18 @@ call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat flutter --pre
 @rem Android development
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat androidstudio
 
+@rem SQLite
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat sqlite
+
+@rem MySQL
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat mysql
+
+@rem InfluxDB
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat influxdb
+
+@rem MongoDB
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat mongodb --pre
+
 @rem PostgreSQL
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat postgresql
 
@@ -101,6 +113,9 @@ call C:\sandbox-utils\app-script\brave-shortcut-remove.bat
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat firefox
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat opera
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat microsoft-edge
+
+@rem http server
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat nginx
 
 @rem MQTT.fx
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat mqttfx

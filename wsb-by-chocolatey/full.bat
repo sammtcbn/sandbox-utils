@@ -91,6 +91,9 @@ call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat rclone
 @rem Visual Studio Code
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat vscode
 call C:\sandbox-utils\app-script\vscode-shortcut-remove.bat
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat vscode-cpptools
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat vscode-python
+call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat vscode-go
 
 @rem Visual Studio 2019 Community
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat visualstudio2019community

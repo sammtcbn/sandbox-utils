@@ -24,6 +24,7 @@ call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat flutter --pre
 
 @rem Visual Studio Code
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat vscode
+call C:\sandbox-utils\app-script\vscode-shortcut-remove.bat
 
 @rem dev tools
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat winmerge

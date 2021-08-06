@@ -69,6 +69,7 @@ call C:\sandbox-utils\app-script\postman-install.bat
 
 @rem Visual Studio Code
 call C:\sandbox-utils\app-script\vscode-install.bat
+call C:\sandbox-utils\app-script\vscode-shortcut-remove.bat
 
 @rem mosquitto
 call C:\sandbox-utils\app-script\mosquitto-install.bat

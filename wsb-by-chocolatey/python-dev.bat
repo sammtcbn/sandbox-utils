@@ -27,6 +27,7 @@ call C:\sandbox-utils\app-script\python-pip-upgrade.bat
 
 @rem Visual Studio Code
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat vscode
+call C:\sandbox-utils\app-script\vscode-shortcut-remove.bat
 
 @rem dev tools
 call C:\sandbox-utils\app-script\chocolatey-pkg-ins.bat winmerge

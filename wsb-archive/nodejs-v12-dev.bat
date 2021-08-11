@@ -18,7 +18,7 @@ call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 @rem terminal
 call C:\sandbox-utils\app-script\windows-terminal-install.bat
 
-@rem node.js v12
+@rem node.js
 call C:\sandbox-utils\app-script\nodejs-v12-install.bat
 
 @rem node.js package

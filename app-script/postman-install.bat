@@ -1,6 +1,6 @@
 @echo off
 
-set FN=Postman-win64-8.0.7-Setup.exe
+set FN=Postman-win64-8.10.0-Setup.exe
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

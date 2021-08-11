@@ -22,7 +22,7 @@ call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 call C:\sandbox-utils\app-script\windows-terminal-install.bat
 
 @rem node.js
-call C:\sandbox-utils\app-script\nodejs-install.bat
+call C:\sandbox-utils\app-script\nodejs-v12-install.bat
 
 @rem python
 call C:\sandbox-utils\app-script\python-install.bat

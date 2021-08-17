@@ -29,3 +29,4 @@ call C:\sandbox-utils\app-script\nircmd-download.bat
 call C:\sandbox-utils\app-script\setdefaultbrowser-download.bat
 call C:\sandbox-utils\app-script\winmerge-download.bat
 call C:\sandbox-utils\app-script\androidstudio-download.bat
+call C:\sandbox-utils\app-script\grafana-download.bat

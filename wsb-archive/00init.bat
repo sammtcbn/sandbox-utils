@@ -31,3 +31,4 @@ call C:\sandbox-utils\app-script\winmerge-download.bat
 call C:\sandbox-utils\app-script\androidstudio-download.bat
 call C:\sandbox-utils\app-script\grafana-download.bat
 call C:\sandbox-utils\app-script\rdm-download.bat
+call C:\sandbox-utils\app-script\db-browser-for-sqlite-download.bat

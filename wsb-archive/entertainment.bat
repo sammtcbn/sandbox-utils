@@ -17,14 +17,6 @@ call C:\sandbox-utils\app-script\setdefaultbrowser-chrome.bat
 rem call C:\sandbox-utils\app-script\git-install.bat
 rem call C:\sandbox-utils\app-script\sam-git-utils-install.bat
 
-rem entertainment
-call C:\sandbox-utils\app-script\k-lite-codec-pack-full-install.bat
-call C:\sandbox-utils\app-script\vlc-install.bat
-call C:\sandbox-utils\app-script\vlc-shortcut-remove.bat
-call C:\sandbox-utils\app-script\nircmd-install.bat
-rem call C:\sandbox-utils\app-script\nircmd-mute.bat
-call C:\sandbox-utils\app-script\nircmd-volume-highest.bat
-
 rem open web page
 call C:\sandbox-utils\app-script\chrome-incognito-openurl.bat https://www.google.com/
 

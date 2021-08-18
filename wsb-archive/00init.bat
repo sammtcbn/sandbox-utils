@@ -30,3 +30,4 @@ call C:\sandbox-utils\app-script\setdefaultbrowser-download.bat
 call C:\sandbox-utils\app-script\winmerge-download.bat
 call C:\sandbox-utils\app-script\androidstudio-download.bat
 call C:\sandbox-utils\app-script\grafana-download.bat
+call C:\sandbox-utils\app-script\rdm-download.bat

@@ -1,6 +1,6 @@
 @echo off
 
-set FN=npp.8.1.3.Installer.x64.exe
+set FN=npp.8.1.4.Installer.x64.exe
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

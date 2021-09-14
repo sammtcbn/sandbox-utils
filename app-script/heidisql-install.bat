@@ -1,6 +1,6 @@
 @echo off
 
-set FN=HeidiSQL_11.2.0.6213_Setup.exe
+set FN=HeidiSQL_11.3.0.6295_Setup.exe
 
 if exist C:\sandbox-dl\%FN% (
   set dlpath=C:\sandbox-dl

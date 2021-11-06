@@ -21,6 +21,10 @@ if exist %dlpath%\%targetFileName% (
 
 call C:\sandbox-utils\utils\folder-create.bat %dlpath%
 
-curl --output %dlpath%\%targetFileName% -L %url%
+curl --fail --output %dlpath%\%targetFileName% -L %url%
+if %ERRORLEVEL% neq 0 (
+    echo Fail to download %targetFileName%
+	exit /b 1
+)
 
 :bye

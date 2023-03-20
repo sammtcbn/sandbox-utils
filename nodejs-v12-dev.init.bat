@@ -11,7 +11,7 @@ call C:\win-app-installer\sam-git-utils-download.bat
 call C:\win-app-installer\winmerge-download.bat
 
 @rem terminal
-call C:\win-app-installer\windows-terminal-install.bat
+call C:\win-app-installer\windows-terminal-download.bat
 
 @rem node.js
 call C:\win-app-installer\nodejs-v12-download.bat

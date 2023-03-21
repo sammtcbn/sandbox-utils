@@ -13,7 +13,7 @@ call C:\win-app-installer\winmerge-download.bat
 @rem terminal
 call C:\win-app-installer\windows-terminal-download.bat
 
-@rem python
+@rem go
 call C:\win-app-installer\go-download.bat
 
 @rem Visual Studio Code

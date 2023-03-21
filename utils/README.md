@@ -1,1 +1,0 @@
-RefreshEnv.cmd is copied from Chocolatey v0.10.15

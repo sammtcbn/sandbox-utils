@@ -27,7 +27,7 @@ call C:\sandbox-utils\app-script\nodejs-v16-install.bat
 
 @rem python
 call C:\sandbox-utils\app-script\python-install.bat
-call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
+call C:\win-app-installer\chocolatey-refreshenv.bat
 call C:\sandbox-utils\app-script\python-pip-upgrade.bat
 
 @rem python package
@@ -106,7 +106,7 @@ call C:\sandbox-utils\app-script\brave-incognito-openurl.bat https://www.google.
 @rem install by chocolatey
 @rem ---------------------------------------------------------------
 call C:\sandbox-utils\app-script\chocolatey-install.bat
-call C:\sandbox-utils\app-script\chocolatey-refreshenv.bat
+call C:\win-app-installer\chocolatey-refreshenv.bat
 
 @rem boxstarter
 @rem call C:\sandbox-utils\app-script\boxstarter-install.bat

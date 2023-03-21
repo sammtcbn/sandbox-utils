@@ -26,6 +26,23 @@ call C:\win-app-installer\chocolatey-refreshenv.bat
 call C:\win-app-installer\python-pip-upgrade.bat
 
 @rem python package
+rem call C:\win-app-installer\python-pkg-ins.bat beautifulsoup4
+rem call C:\win-app-installer\python-pkg-ins.bat django
+rem call C:\win-app-installer\python-pkg-ins.bat flask
+rem call C:\win-app-installer\python-pkg-ins.bat jupyter
+rem call C:\win-app-installer\python-pkg-ins.bat matplotlib
+rem call C:\win-app-installer\python-pkg-ins.bat numpy
+rem call C:\win-app-installer\python-pkg-ins.bat pandas
+rem call C:\win-app-installer\python-pkg-ins.bat pymongo
+rem call C:\win-app-installer\python-pkg-ins.bat pymysql
+rem call C:\win-app-installer\python-pkg-ins.bat PyQt5
+rem call C:\win-app-installer\python-pkg-ins.bat pyquery
+rem call C:\win-app-installer\python-pkg-ins.bat pywin32
+rem call C:\win-app-installer\python-pkg-ins.bat redis
+rem call C:\win-app-installer\python-pkg-ins.bat requests
+rem call C:\win-app-installer\python-pkg-ins.bat scipy
+rem call C:\win-app-installer\python-pkg-ins.bat seaborn
+rem call C:\win-app-installer\python-pkg-ins.bat selenium
 
 @rem Visual Studio Code
 call C:\win-app-installer\vscode-install.bat

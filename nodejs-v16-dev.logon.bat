@@ -17,7 +17,8 @@ call C:\win-app-installer\git-install.bat
 call C:\win-app-installer\sam-git-utils-install.bat
 call C:\win-app-installer\winmerge-install.bat
 
-@rem terminal
+@rem terminal , need ui.xaml 2.8 for new windows-terminal preview
+call C:\win-app-installer\ui-xaml-install.bat
 call C:\win-app-installer\windows-terminal-install.bat
 
 @rem node.js
